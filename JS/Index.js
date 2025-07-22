@@ -1,4 +1,6 @@
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-    loader.style.display = "none"; 
-})
+const loader = document.querySelector('.loader');
+window.addEventListener('load', () => {
+  if (loader) {
+    loader.classList.add('hidden');
+  }
+});
