@@ -1,8 +1,29 @@
-html,body,header{font-family: 'PT Sans Narrow';}
-header{margin-right: 1px;margin-left: 1px;}
-body{background-color: #efe1efd2;}
-header{display: block;border: white;margin-top: 25px;margin-left: 25px;margin-right: 25px;margin-bottom: 25px;align-items: center;}
-.site-brand{margin-left: 100px;margin-top: 100px;}
-.link{padding-left: 25px;}
-body{display: flex;}
-.content{border: white;margin-top: 200px;margin-bottom: 20px;margin-right: 100px;margin-left: 100px;}
+body, header {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+  background-color: #efe1efd2;
+  display: flex;
+}
+
+header {
+  display: block;
+  border: white;
+  margin: 25px;
+  align-items: center;
+}
+
+.site-brand {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.link {
+  padding-left: 25px;
+}
+
+.content {
+  border: white;
+  margin: 200px 100px 20px;
+}
